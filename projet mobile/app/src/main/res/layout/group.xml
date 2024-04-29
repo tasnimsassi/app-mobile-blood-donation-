@@ -1,0 +1,156 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+    <!-- Background section -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:contentDescription="Background Image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/top" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="-97dp"
+        android:paddingLeft="80dp"
+        android:paddingTop="10dp"
+        android:text="Pick Your Blood Group"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <!-- First CardView for blood group A -->
+
+    <!-- Second CardView for blood group B -->
+
+    <!-- Third CardView for blood group AB -->
+
+    <!-- Fourth CardView for blood group HH -->
+
+    <!-- Fifth CardView for blood group O -->
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="247dp"
+        android:layout_marginBottom="330dp"
+        android:clickable="true"
+        android:elevation="5dp"
+        android:focusable="true"
+        app:cardBackgroundColor="#D3D3D3"
+        app:cardCornerRadius="35dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="A"
+            android:textSize="30sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="246dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="329dp"
+        android:clickable="true"
+        android:elevation="5dp"
+        android:focusable="true"
+        app:cardBackgroundColor="#D3D3D3"
+        app:cardCornerRadius="35dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="B"
+            android:textSize="30sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="243dp"
+        android:layout_marginBottom="170dp"
+        android:clickable="true"
+        android:elevation="5dp"
+        android:focusable="true"
+        app:cardBackgroundColor="#D3D3D3"
+        app:cardCornerRadius="35dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="AB"
+            android:textSize="30sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="169dp"
+        android:clickable="true"
+        android:elevation="5dp"
+        android:focusable="true"
+        app:cardBackgroundColor="#D3D3D3"
+        app:cardCornerRadius="35dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="O"
+            android:textSize="30sp" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="148dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="66dp"
+        android:text="Next" />
+
+</RelativeLayout>
